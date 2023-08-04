@@ -8,7 +8,7 @@ For example, if the function gets sent "4444444444444444", then it should return
 '''
 
 def credit_card(credit_card_number):
-    return '*'*len(str(credit_card_number))-4+str(credit_card_number)[-4:]
+    return '*'*(len(str(credit_card_number))-4)+str(credit_card_number)[-4:]
 
 
 # Test-case 1
